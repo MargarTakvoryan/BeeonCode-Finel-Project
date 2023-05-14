@@ -12,7 +12,6 @@ function Gender() {
         <Link to={'/man'} className={styles.gender_Icone} ><SlUser style={pathname === "/man" ? { color: '#0008C1' } : null} /></Link>
       </div>
       <Outlet />
-
     </div>
   )
 }
