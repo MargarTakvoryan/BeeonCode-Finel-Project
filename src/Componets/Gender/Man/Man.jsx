@@ -4,7 +4,9 @@ import styles from './Man.module.css'
 function Man() {
   return (
     <div className={styles.Man_Continer}>
-      wefwjifow
+      <div className={styles.sub_category}>
+
+      </div>
     </div>
   )
 }

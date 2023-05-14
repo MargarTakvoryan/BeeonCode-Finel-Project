@@ -1,3 +1,13 @@
-.Man_Continer{
-    background: rgb(118, 87, 64);
+.Man_Continer {
+    height: 100%;
+    width: 91%;
+    background: salmon;
+    display: flex; 
+    align-items: center;
+}
+.sub_category{
+    height: 80px;
+    width: 140px;
+    background: white;
+    margin-left: 20px;
 }

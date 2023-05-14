@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Search />
       <Routes>
-        <Route element={<Gender />} path={'/'}>
-          <Route index element={<Man />} />
+        <Route element={<Gender />} path="/">
           <Route element={<Woman />} path="/woman" />
+          <Route path={'/man'} element={<Man />} />
         </Route>
       </Routes>
     </div>

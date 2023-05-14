@@ -1,7 +1,26 @@
-.gender_Continer{
-    height: 80px;
-    width: 300px;
+.gender_Continer {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    background: seagreen;
+}
+
+.gender_box {
+    height: 100%;
+    width: 120px;
     background: saddlebrown;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.gender_Icone{
+    height: 32px;
+    width: 50px;
+    background: skyblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

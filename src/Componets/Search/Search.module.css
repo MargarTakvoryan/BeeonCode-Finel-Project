@@ -16,6 +16,7 @@
     align-items: center;
     border-radius: 20px;
     padding: 5px;
+    cursor: pointer;
 }
 .input{
     height: 100%;
@@ -29,6 +30,7 @@
     height: 100%;
     color: white;
     width: 30px;
+    
 }
 .searchIconBox{
     height: 90%;
