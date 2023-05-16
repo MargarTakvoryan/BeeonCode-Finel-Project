@@ -7,6 +7,7 @@ function NotFound() {
     <div>
       Page Not Found
       <Link to={"/"}><button>Please click here</button></Link>
+      
     </div>
   )
 }

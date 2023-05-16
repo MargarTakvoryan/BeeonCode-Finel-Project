@@ -11,3 +11,16 @@
     background: white;
     margin-left: 20px;
 }
+.man_page_add_category_modal{
+    height: 80px;
+    width: 40px;
+    border-radius: 10px;
+    /* border: 1px solid; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    /* cursor: pointer; */
+}

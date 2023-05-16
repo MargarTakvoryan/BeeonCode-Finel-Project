@@ -16,7 +16,6 @@ function App() {
         <Route element={<Gender />} path="/">
           <Route element={<Woman />} path="/woman" />
           <Route path={'/man'} element={<Man />} />
-          
         </Route>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
