@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from './Man.module.css'
 import { HiPlus } from 'react-icons/hi';
-import CategoryAddModal from '../../Modals/Category_Modal/CategoryAddModal';
+import CategoryAddModal from '../../Modals/CategoryModal/CategoryAddModal';
 
 
 function Man() {
