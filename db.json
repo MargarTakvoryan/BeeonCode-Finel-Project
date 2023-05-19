@@ -1,0 +1,22 @@
+{
+    "man":[
+        {
+            "id":1,
+            "title":"Колцо",
+            "imgUrl":"https://skygold.com.ua/image/cache/catalog/product_images/646/6da2bf6512ae14db2c0587d80bf81704.png",
+            "sub_Category":[
+                {
+                    
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://www.seekpng.com/png/full/3-38430_gold-chain-men-png.png",
+            "title": "Колье "
+        }
+    ],
+    "woman":[
+        
+    ]
+}

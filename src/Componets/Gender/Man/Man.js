@@ -4,14 +4,22 @@ import { HiPlus } from 'react-icons/hi';
 import CategoryAddModal from '../../Modals/CategoryModal/CategoryAddModal';
 
 
-function Man() {
+function Man({ manCategory }) {
   const [open, setOpen] = useState(false)
-  console.log(open);
+
   return (
     <div className={styles.Man_Continer}>
-      <div className={styles.sub_category}>
+      {
+        manCategory.map((post) => {
+          return <div key={post.id} className={styles.sub_category}>
+            <img className={styles.manCategoryImg} src={post.imgUrl} alt='aaa'/>
+            <p className={styles.manCategoryTitle}>{post.title}</p>
+          </div>
 
-      </div>
+        })
+      }
+
+
       <div className={styles.sub_category}>
 
       </div>
