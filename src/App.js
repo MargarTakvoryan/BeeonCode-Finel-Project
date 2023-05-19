@@ -14,34 +14,25 @@ import Error from "./Componets/Error/Error";
 
 function App() {
   const [manCategory, setManCategory] = useState([])
-  const [error,setError] = useState("")
-  
+  const [error, setError] = useState("")
+
 
   useEffect(() => {
-    
-      axios.get('http://localhost:3000/massn').then((response) => {
+    axios.get('http://localhost:3000/man').then((response) => {
       setManCategory(response);
-    }).catch(error=>{
+    }).catch(error => {
       setError(error.message)
     })
-    
-    
-      // fetch('http://localhost:3000/man')
-      //   .then(response => response.json())
-      //   .then(res => setManCategory(res))
-      //   .catch((error) => {
-      //     return console.log(error.massage);
-      //   })
   }, [])
 
- 
+
 
   if (error) {
     return <Error errorMessage={error} />
   }
   return (
     <div className="App">
-      
+
       <Search />
       <Routes>
         <Route element={<Gender />} path="/">
