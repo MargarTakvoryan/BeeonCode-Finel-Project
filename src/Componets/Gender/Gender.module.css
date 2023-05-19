@@ -1,14 +1,15 @@
 .gender_Continer {
+    margin: auto;
     height: 120px;
-    width: 100%;
+    width: 90%;
     display: flex;
-    background: seagreen;
+    /* background: seagreen; */
 }
 
 .gender_box {
     height: 120px;
     width: 120px;
-    background: saddlebrown;
+    /* background: saddlebrown; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +19,8 @@
 .gender_Icone{
     height: 32px;
     width: 50px;
-    background: skyblue;
+    /* background: skyblue; */
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.25);
     color: black;
     display: flex;
     justify-content: center;

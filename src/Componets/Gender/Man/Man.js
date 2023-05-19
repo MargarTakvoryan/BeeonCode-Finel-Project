@@ -11,7 +11,7 @@ function Man({ manCategory }) {
     <div className={styles.Man_Continer}>
       {
         manCategory.map((post) => {
-          return <div key={post.id} className={styles.sub_category}>
+          return <div key={post.id} className={styles.manCategoryContiner}>
             <img className={styles.manCategoryImg} src={post.imgUrl} alt='aaa'/>
             <p className={styles.manCategoryTitle}>{post.title}</p>
           </div>
@@ -19,10 +19,6 @@ function Man({ manCategory }) {
         })
       }
 
-
-      <div className={styles.sub_category}>
-
-      </div>
       <div className={styles.man_page_add_category_modal} onClick={() => {
         setOpen(true)
       }}>
