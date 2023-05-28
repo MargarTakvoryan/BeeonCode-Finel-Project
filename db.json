@@ -1,23 +1,37 @@
 {
-    "man":[
+  "man": [
+    {
+      "id": 1,
+      "title": "Кольцo",
+      "imgUrl": "https://skygold.com.ua/image/cache/catalog/product_images/646/6da2bf6512ae14db2c0587d80bf81704.png",
+      "sub_Category": [
         {
-            "id":1,
-            "title":"кольцo",
-            "imgUrl":"https://skygold.com.ua/image/cache/catalog/product_images/646/6da2bf6512ae14db2c0587d80bf81704.png",
-            "sub_Category":[
-                {
-                    
-                    "name":"кольцo"
-                }
-            ]
+          "id": 1,
+          "name": "Кольцo"
         },
         {
-            "id": 2,
-            "imgUrl": "https://www.seekpng.com/png/full/3-38430_gold-chain-men-png.png",
-            "title": "Колье "
+          "id": 2,
+          "name": "wefwpoekf"
         }
-    ],
-    "woman":[
-        
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Колье ",
+      "imgUrl": "https://www.seekpng.com/png/full/3-38430_gold-chain-men-png.png",
+      "sub_Category": [
+        {
+          "id": 1,
+          "name": "22323"
+        }
+      ]
+    },
+    {
+      "title": "qwdqwd",
+      "imgUrl": "blob:http://localhost:3001/f706b64a-82a5-49e3-a4f3-f51614c162e2",
+      "sub_Category": [],
+      "id": 3
+    }
+  ],
+  "woman": []
 }

@@ -5,10 +5,10 @@ import { SlUserFemale } from 'react-icons/sl';
 import { SlUser } from 'react-icons/sl';
 import { RiImageAddLine } from 'react-icons/ri';
 
-function CategoryAddModal({ setOpen }) {
+function CategoryAddModal({ setOpen, addCategoryObject }) {
 
-  
-  
+console.log(addCategoryObject);
+
   const [choous, setChoous] = useState(false);
   const [inputValue, setInputValue] = useState("");
 
@@ -62,7 +62,7 @@ function CategoryAddModal({ setOpen }) {
               
               setOpen(false)
             } else if (choous === true && inputValue.trim()) {
-              
+              addCategoryObject(inputValue,file)
               setOpen(false)
             }
 
